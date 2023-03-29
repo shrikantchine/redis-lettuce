@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.shrikantchine'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.lettuce:lettuce-core:6.1.10.RELEASE'
+}
+
+test {
+    useJUnitPlatform()
+}
